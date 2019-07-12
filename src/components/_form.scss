@@ -1,0 +1,124 @@
+form{
+    border: 1px solid gray;
+    border-bottom: 4px solid #64c993;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 2rem;
+    margin-top:3rem;
+    height: 30rem;
+    width: 50rem;
+    div{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        width:80%;
+        .elm1{
+            flex:1;
+            p{
+                font-size: 1rem;
+                font-weight: 900;
+            }
+        }
+        .elm2{
+            flex:3;
+            height: 50%;
+        }
+        
+    }
+    .sex{
+        .elm2{
+            flex-direction: column;
+            line-height: 0.1rem;
+            flex: 5;
+        }
+    }
+    .favorite{
+        div{
+            flex:1;
+            p{
+                font-size: 1rem;
+                font-weight: 900;
+            }
+        }
+    }
+    .employ{
+        div{
+            width:25%;
+            p{
+                font-size: 1rem;
+                font-weight: 900;
+            }
+        }
+    }
+    .notes{
+        align-items: baseline;
+        div{
+            flex:1;
+            p{
+                font-size: 1rem;
+                font-weight: 900;
+            }
+        }
+        .text{
+            flex:3;
+        }
+    }
+    .submit{
+        width:40%;
+        div{
+            padding: 1rem;
+            svg {
+                position: absolute;
+                color: white;
+                padding-left: 0.3rem;
+            }
+            .s1{
+                background: rgb(146, 184, 216);
+                color:white;
+                font-size: 1.1rem;
+                font-weight: 600;
+            }
+            .s2{
+                background:white;
+                color:rgb(98, 98, 98);
+                border:1px solid rgb(192, 192, 192);
+                font-size: 1.1rem;
+                font-weight: 600;
+            }
+        }
+        
+    }
+}
+.Invalid {
+    color: red;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 100%;
+    color: gray;
+    padding-left: 1rem;
+}
+select#favorite {
+    flex: 3;
+    height: 50%;
+    border-radius: 5px;
+}
+textarea#subject {
+    width: 100%;
+    height: 80%;
+}
+input[type="submit"] {
+    border: none;
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+}
+input[type="button"] {
+    border: none;
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+}
